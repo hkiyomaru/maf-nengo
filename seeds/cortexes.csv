@@ -1,0 +1,49 @@
+source_major_region,destination_major_region,type,source_laminal,destination_laminal
+Isocortex,Isocortex,FF,C2/3,C4
+Isocortex,Olfactory Areas,FF,C2/3,C4
+Olfactory Areas,Isocortex/OFA,FF,C2/3,C4
+Olfactory Areas,Olfactory Areas,FF,C2/3,C4
+Isocortex,Isocortex,FB,C6,C1
+Isocortex,Olfactory Areas,FB,C6,C1
+Olfactory Areas,Isocortex,FB,C6,C1
+Olfactory Areas,Olfactory Areas,FB,C6,C1
+Isocortex,Thalamus,FF,C2,Thalamus
+Olfactory Areas,Thalamus,FF,C2,Thalamus
+Isocortex,Thalamus,FB,unk,Thalamus
+Olfactory Areas,Thalamus,FB,unk,Thalamus
+Thalamus,Isocortex,FF,Thalamus,C4
+Thalamus,Olfactory Areas,FF,Thalamus,C4
+Thalamus,Isocortex,FB,Thalamus,unk
+Thalamus,Olfactory Areas,FB,Thalamus,unk
+Isocortex,Striatum,unk,C5,Striatum
+Olfactory Areas,Striatum,unk,C5,Striatum
+Isocortex,Hippocampal Formation,FF,C2/3,C4
+Olfactory Areas,Hippocampal Formation,FF,C2/3,C4
+Hippocampal Formation,Isocortex,FF,C6,C1
+Hippocampal Formation,Olfactory Areas,FF,C6,C1
+Isocortex,CTXsp,unk,unk,CTXsp
+Olfactory Areas,CTXsp,unk,unk,CTXsp
+Isocortex,Pallidum,unk,unk,Pallidum
+Olfactory Areas,Pallidum,unk,unk,Pallidum
+Isocortex,Hypothalamus,unk,unk,Hypothalamus
+Olfactory Areas,Hypothalamus,unk,unk,Hypothalamus
+Isocortex,Midbrain,unk,C5,Midbrain
+Olfactory Areas,Midbrain,unk,C5,Midbrain
+Isocortex,Pons,unk,C5,Pons
+Olfactory Areas,Pons,unk,C5,Pons
+Isocortex,Medulla,unk,unk,Medulla
+Olfactory Areas,Medulla,unk,unk,Medulla
+Isocortex,Cerebellar Cortex/Neuclei,unk,C5,Cerebellar Cortex/Neuclei
+Olfactory Areas,Cerebellar Cortex/Neuclei,unk,C5,Cerebellar Cortex/Neuclei
+CTXsp,Isocortex,unk,CTXsp,unk
+CTXsp,Olfactory Areas,unk,CTXsp,unk
+Pallidum,Isocortex,unk,Pallidum,unk
+Pallidum,Olfactory Areas,unk,Pallidum,unk
+Hypothalamus,Isocortex,unk,Hypothalamus,unk
+Hypothalamus,Olfactory Areas,unk,Hypothalamus,unk
+Midbrain,Isocortex,unk,Midbrain,unk
+Midbrain,Olfactory Areas,unk,Midbrain,unk
+Pons,Isocortex,unk,Pons,unk
+Pons,Olfactory Areas,unk,Pons,unk
+Medulla,Isocortex,unk,Medulla,unk
+Cerebellar Cortex/Neuclei,Olfactory Areas,unk,Cerebellar Cortex/Neuclei,unk
