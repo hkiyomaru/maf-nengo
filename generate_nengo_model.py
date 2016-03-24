@@ -92,12 +92,12 @@ class GeneratePythonCode:
                 cortex_link = {'sourceCortex': 'C0', 'destinationCortex': 'C0'}
             if sourceRegion == 'Isocortex' or sourceRegion == 'Olfactory Areas':
                 cortex_link['sourceCortex'] = cortex_link['sourceCortex'][1:]
-                self.f.write('\tnengo.Connection(' + self.escape(connection['sourceName']) + '_' + cortex_link['sourceCortex'] + ',')
+                self.f.write('\tnengo.Connection(' + self.escape(connection['sourceName']) + '_' + self.escape(cortex_link['sourceCortex']) + ',')
             else:
                 self.f.write('\tnengo.Connection(' + self.escape(connection['sourceName']) + ',')
             if destinationRegion == 'Isocortex' or destinationRegion == 'Olfactory Areas':
                 cortex_link['destinationCortex'] = cortex_link['destinationCortex'][1:]
-                self.f.write(self.escape(connection['destinationName']) + '_' + cortex_link['destinationCortex'] + ')')
+                self.f.write(self.escape(connection['destinationName']) + '_' + self.escape(cortex_link['destinationCortex']) + ')')
             else:
                 self.f.write(self.escape(connection['destinationName']) + ')')
             self.line_break()
@@ -107,6 +107,7 @@ class GeneratePythonCode:
 
     def escape(self, string):
         string = string.replace('-', '_')
+        string = string.replace('/', '_')
         return string
 
     def write_network():
