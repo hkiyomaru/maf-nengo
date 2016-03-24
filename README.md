@@ -1,4 +1,6 @@
-#Instruction
+#MAF Generator
+
+##Getting started
 
 Clone this repository.
 
@@ -12,7 +14,7 @@ And build a database.
 $ ./db.sh
 ```
 
-#Run
+##Run
 
 Create a nengo model code.
 
